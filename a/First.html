@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>My grade</h1>
+        <label for="sm1">Semester1:<input type="number" min="0" max="10" name="" id="sm1"></label>
+        <br>
+        <label for="sm2">Semester2: <input type="number" min="0" max="10" name="" id="sm2"></label>
+        <br>
+        <label for="year">Year: <input type="number" min="0" max="8" name="" id="year"></label>
+        <br>
+        <label for="sum">Summarise: <input onclick="function3()" type="number" id="sum"></label>
+        <br>
+        <label for="kq">Ket qua <textarea name="" id="kq"></textarea></label>
+        <br>
+        <button id="ok" onclick="getSum()">OK</button>
+        <button id="cancel" onclick="function2()">Cancel</button>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
